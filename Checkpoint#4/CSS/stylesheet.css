@@ -1,0 +1,179 @@
+/*Les differents fonts que j'ai utilisé*/
+@font-face {
+    font-family: navbar;
+    src: url(../FONTS/Agbalumo-Regular.ttf);
+}
+
+
+/*Je vais créer une barre de navigation*/
+
+header {
+    background-color:#008080;
+    margin: -10px;
+    margin-top: -10px ;
+    padding-top: 20px;
+    height: 50px;
+    padding-bottom: 20px;
+    border-bottom: 10px solid lightpink;
+    
+}
+
+.navbar li {
+      display: inline;
+      text-decoration: none;
+      padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color:lightpink ;
+    font-family: navbar;
+    text-shadow: 2px 2px 4px rgb(168, 30, 76);
+
+}
+
+ a:hover {
+    text-decoration: 5px underline lightpink;
+    position: relative;
+    top: -2px;
+    text-shadow: 2px 2px 4px rgb(117, 2, 41);
+}
+
+.cart {
+    position: absolute;
+    right: 500px;
+    top: 20px;
+    height: 40px;
+
+}
+
+
+nav h1 {
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    height: 25px;
+}
+
+/*J'ai créer un logo pour rendre plus jolie!*/
+
+.logo {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 450px;
+
+}
+
+.pic {
+    height: 200px;
+}
+
+h1 {
+    color: lightpink;
+    font-family: navbar;
+    
+}
+
+/*Je vais modifier la position des differents articles,la taille */
+
+
+.container {
+    background-color: white;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    gap: 100px;
+    
+    
+
+}
+
+.item-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    height: 300px;
+    width: 150px;
+    border-radius: 3%;
+    border: none;
+    box-shadow: 0px 2px 4px palevioletred;
+}
+
+.item-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 3%;
+}
+
+.item-1 h3 {
+    font-family: navbar;
+    color: lightpink;
+    padding-left: 12px;
+    text-shadow: 0px 2px 4px pink;
+}
+
+
+
+/*J'ai modifié le bouton + et -*/
+
+.quantity-container {
+    background-color: white;
+    border-radius: 5%;
+    border: 5px solid lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008080;
+    position: relative;
+    bottom: 18px;
+}
+
+.quantity-container span {
+    padding: 2px;
+}
+
+.quantity-container button {
+    background-color: beige;
+    cursor: pointer;
+    font-weight: 100;
+    
+}
+
+/*Je vais créer le panier d'achat a partir de la*/
+
+#totalPrice {
+    font-family: navbar;
+    color: #008080;
+}
+
+.TOTAL {
+    background-color: beige;
+    border: 2px solid lightpink;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TOTAL h3 {
+    font-family: navbar;
+    color: #008080;
+}
+
+.heartButton {
+    color: black;
+  }
+  
+  .heartButton.liked {
+       color: red;
+  }
